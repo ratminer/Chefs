@@ -13,14 +13,5 @@ public class Main {
 		peanutButter.start();
 		bread.start();
 		jam.start();
-		
-		Scanner sc = new Scanner(System.in);
-		while(sc.nextLine() != "exit"){
-			// infinite loop
-		}
-		agent.exit();
-		peanutButter.exit();
-		bread.exit();
-		jam.exit();
 	}
 }

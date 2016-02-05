@@ -14,11 +14,10 @@ public class Agent extends Thread {
 	public void run() {
 		Random rand = new Random();
 		
-		while (running) {
+		for(int i = 0; i < 20; i++) {
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			switch (rand.nextInt(3)) {
